@@ -1,0 +1,295 @@
+.courseReg-section{
+  background-image: url('../../../assets/images/CEUimgs/courseRegImgs/Rectangle\ 15.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 1440px; */
+  min-height: 554px;
+  margin-top: 120px;
+  padding-top: 52px;
+}
+.courseReg-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.courseRegImg-div{
+    background-image: url('../../../assets/images/CEUimgs/courseRegImgs/Ellipse8.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 414.51px;
+    /* height: 100%; */
+    max-width: 647px;
+    position: relative;
+    z-index: 1;
+}
+
+.courseRegImg-div:before{
+    position: absolute;
+    background-image: url('../../../assets/images/CEUimgs/courseRegImgs/Ellipse9.png');
+    content: '';
+    height: 249.54px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1.5;
+    width: 100%;
+    /* height: 100%; */
+    left: 50%;
+    top: 50%;
+}
+
+.courseReg-card{   
+    position: absolute;
+    width: 232.24px;
+    height: 109.07px;      
+    background: #FFFFFF;
+    box-shadow: 0px 11.4805px 22.9611px rgba(0, 0, 0, 0.05);
+    border-radius: 9.57482px;
+    padding-top: 16.4px;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: 54%;
+    top: 5%;
+}
+
+.courseReg-card .title{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.71px;
+    line-height: 48px;
+   
+    
+    color: #223344;
+}
+
+.courseReg-card .courseReg-card-body p{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.9571px;
+    line-height: 140.5%;
+    /* or 25px */
+
+
+    color: #6A6B6C;
+
+}
+
+
+
+
+
+
+.courseReg-desc{
+    margin-top:52.55px
+}
+
+.courseReg-heading{
+    margin-bottom: 39.77px;
+
+}
+.courseReg-h3{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.ceuReg-content{
+
+}
+
+.ceuReg-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.courseReg-ul{
+
+}
+
+.courseReg-ul li{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.courseReg-ul p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FFFFFF;
+
+}
+
+
+@media screen and (max-width: 992px){
+    .courseReg-div{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+       
+    }
+    .courseRegImg-div{
+        width: 400px;
+    }
+
+    
+.courseRegImg-div:before{
+  
+    height: 230px;
+  
+    width: 70%;
+   
+    left: 60%;
+    top: 60%;
+}
+
+.courseReg-card{   
+  
+    width: 50%;
+    left: 74%;
+    top: 5%;
+}
+
+}
+
+@media screen and (max-width: 768px){
+    .courseReg-div{
+        /* display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center; */
+        /* flex-wrap: wrap; */
+        text-align: justify;
+    }
+    .courseRegImg-div{
+        width: 350px;
+    }
+
+    
+.courseRegImg-div:before{
+  
+    height: 200px;
+    width: 60%;
+    left: 58%;
+    top: 55%;
+}
+
+.courseReg-card{   
+   width: 50%;
+    left: 78%;
+    top: 5%;
+}
+
+
+.courseReg-card .title{
+    font-size: 1.9rem;
+}
+
+.courseReg-card .courseReg-card-body p{
+ 
+    font-size: 1rem;
+}
+
+}
+
+@media screen and (max-width: 576px){
+    .courseReg-h3{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .courseRegImg-div{
+        width: 300px;
+    }
+
+    
+.courseRegImg-div:before{
+  
+    height: 180px;
+    width: 55%;
+    left: 58%;
+    top: 50%;
+}
+
+.courseReg-card{   
+   width: 48%;
+    left: 75%;
+    top: 4%;
+}
+
+
+.courseReg-card .title{
+    font-size: 1rem;
+}
+
+.courseReg-card .courseReg-card-body p{
+ 
+    font-size: 0.9rem;
+}
+
+}
+
+@media screen and (max-width: 452px){
+    .courseReg-h3{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .courseRegImg-div{
+        width: 265px;
+    }
+
+    
+.courseRegImg-div:before{
+  
+    height: 167px;
+    width: 50%;
+    left: 58%;
+    top: 50%;
+}
+
+.courseReg-card{  
+    padding-top: 0px;
+    padding-bottom: 0px; 
+   width: 43%;
+    left: 64%;
+    top: -5%;
+}
+
+
+.courseReg-card .title{
+    font-size: 1rem;
+}
+
+.courseReg-card .courseReg-card-body p{
+ 
+    font-size: 0.9rem;
+}
+
+}

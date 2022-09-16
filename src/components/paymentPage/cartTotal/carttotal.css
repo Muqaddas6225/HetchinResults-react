@@ -1,0 +1,129 @@
+.cartTotal-secton{
+    margin-top: 26.87px;
+}
+
+.productPayment-card{
+    width: 631.56px;
+    
+background: #FFFFFF;
+border: 0.895833px solid #E3E4E4;
+box-shadow: 0px 0px 13.4375px rgba(0, 0, 0, 0.09);
+border-radius: 7.16667px;
+
+}
+
+.cart-total-heading{
+    border-bottom: 0.895833px solid #D3D3D3;
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 69.21%;
+    /* identical to box height, or 11px */
+
+
+    /* #2081E2 */
+
+    color: #2081E2;
+    padding-bottom: 15px;
+    margin-bottom: 19px;
+
+}
+.product-payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+
+
+    /* #0F0E13 */
+
+    color: #0F0E13;
+
+}
+
+
+.product-price{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 92.21%;
+    /* identical to box height, or 13px */
+
+
+    /* #2081E2 */
+
+    color: #2081E2;
+}
+
+
+.product-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 0.895833px solid #D3D3D3;
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 113.71%;
+    /* or 18px */
+
+
+    /* #04111D */
+
+    color: #04111D;
+    padding-top: 15px;
+}
+
+.product-priceTotal{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 86.71%;
+/* or 16px */
+
+
+/* #2081E2 */
+
+color: #2081E2;
+
+}
+
+.Proceed-button-div{
+    margin-top: 54px;
+}
+
+.Proceed-button{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 83.71%;
+    /* or 13px */
+
+
+    /* add */
+
+    color: #FFFFFF;
+    /* Linear */
+
+    background: linear-gradient(90deg, #018080 0%, #07C8C8 99.95%);
+    border-radius: 7.16667px;
+    width: 300px;
+    height: 52px;
+    border-style: none;
+}

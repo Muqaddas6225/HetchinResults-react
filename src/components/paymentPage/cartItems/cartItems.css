@@ -1,0 +1,105 @@
+.payment-section{
+    position: relative;
+    padding-top: 210px;
+    z-index: 1;
+}
+
+.payment-section:before{
+    top: 0%;
+    position: absolute;
+    background-image: url('../../../assets/images/subpages-header-bg.png');
+   /* background-image: url('../../../assets/images/coursesImages/courseHeaderImgs/subpages-header-bg.png'); */
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-position: bottom center;
+   height: 290px;
+    content: '';
+    width: 100%;
+    z-index: 1;
+   
+}
+
+.payment-div{
+    margin-top: 82px;
+}
+
+.Cart-h3{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 84.71%;
+    /* identical to box height, or 24px */
+
+
+    /* black */
+
+    color: #1B2337;
+    margin-bottom: 26.7px;
+}
+
+.tabel-div{
+        
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11.6458px rgba(0, 0, 0, 0.18);
+    border-radius: 7.16667px;
+}
+/* 
+.table{
+    border-spacing: 8px ;
+} */
+
+.payment-head{
+        
+    background: #F8F8F8;
+    border-radius: 7.16667px 7.16667px 0px 0px;
+    border-bottom: transparent;
+    /* padding-top: 28px;
+padding-bottom: 28px; */
+}
+
+.t-heading{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 15px */
+
+
+    /* #0F0E13 */
+
+    color: #0F0E13;
+    padding-top: 20.6px !important ;
+    padding-bottom: 20.6px !important;
+   
+}
+
+
+.payment-data{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 144% */
+
+
+/* #0F0E13 */
+
+color: #0F0E13;
+padding-top: 20.6px !important ;
+padding-bottom: 20.6px !important;
+
+}
+
+.last-row{
+    border-bottom: transparent;
+}
+
+.noWrap{
+    white-space: nowrap;
+}

@@ -1,0 +1,57 @@
+.homelist-section{
+ background: #007A7A;
+ padding-top: 104px;
+ padding-bottom: 104px;
+ margin-top: 80px;
+}
+
+.homelist-container{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 31px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 19px 32px 19px 35px;
+   
+}
+
+.list-icon{
+    padding-top: 15px;
+}
+
+.list-heading{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 74px;
+    /* or 306% */
+
+    display: flex;
+    align-items: center;
+
+    /* #0F0E13 */
+
+    color: #0F0E13;
+}
+
+.list-group{
+    border-style: none;
+}
+
+.list-group-item{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* or 131% */
+
+    display: flex;
+    align-items: center;
+
+    /* #3F3E42 */
+
+    color: #3F3E42;
+
+}

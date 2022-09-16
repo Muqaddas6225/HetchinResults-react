@@ -1,0 +1,270 @@
+.checkout-section{
+    position: relative;
+    padding-top: 210px;
+    /* z-index: 1; */
+}
+
+.checkout-section:before{
+    top: 0%;
+    position: absolute;
+    background-image: url('../../assets/images/subpages-header-bg.png');
+   /* background-image: url('../../../assets/images/coursesImages/courseHeaderImgs/subpages-header-bg.png'); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    height: 290px;
+    content: '';
+    width: 100%;
+    /* z-index: 1; */
+   
+}
+
+.checkout-div{
+    margin-top: 115px;
+    margin-bottom: 36.2px;
+}
+.checkout-heading{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 84.71%;
+    /* or 24px */
+
+
+    /* black */
+
+    color: #1B2337;
+}
+
+.survey-div{
+        
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11.6458px rgba(0, 0, 0, 0.18);
+    border-radius: 7.16667px;
+    padding-top: 16px;
+    padding-bottom: 19px;
+    padding-left: 15px;
+
+}
+.survey-form{
+    display: flex;
+    flex-direction: row;
+    gap: 42px
+}
+
+
+
+.survey-heading{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 85.71%;
+    /* or 15px */
+    
+    
+    /* #0F0E13 */
+    
+    color: #0F0E13;
+    
+    }
+    
+
+.survey-form label{
+    margin-left: 5px;
+}
+
+.payment-Row{
+    margin-top: 26px;
+}
+.paymentMethod-div{
+        
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11.6458px rgba(0, 0, 0, 0.18);
+    border-radius: 7.16667px;
+    padding-top: 16px;
+    padding-bottom: 19px;
+    padding-left: 15px;
+
+}
+.payment-form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+
+
+
+.paymentMethod-heading{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 85.71%;
+    /* or 15px */
+    
+    
+    /* #0F0E13 */
+    
+    color: #0F0E13;
+    
+    }
+
+.payment-form label{
+    margin-left: 5px;
+}
+    
+
+
+.coursePayment-card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11.6458px rgba(0, 0, 0, 0.18);
+    border-radius: 7.16667px;
+    border-style: none;
+    /* padding-top:16px; */
+    padding-bottom: 30.27px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.summary-heading{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 69.21%;
+    /* or 12px */
+    
+    
+    /* #0F0E13 */
+    
+    color: #0F0E13;
+    border-bottom: 0.895833px solid #E9E9E9;
+    padding-top: 7px;
+    padding-bottom: 13px;
+}
+
+.course-name{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 41px;
+/* identical to box height, or 187% */
+
+
+/* black */
+
+color: #1B2337;
+
+}
+
+.course-payment{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 73.71%;
+    /* identical to box height, or 12px */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* #353840 */
+
+    color: #353840;
+    padding-bottom: 32.25px;
+}
+
+.course-price{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 90.21%;
+    /* or 16px */
+
+
+    color: #7177E2;
+}
+.coursePayment-total{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 113.71%;
+/* or 18px */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+/* #04111D */
+
+color: #04111D;
+border-top: 0.895833px solid #E9E9E9;
+padding-top: 26.4px;
+}
+.course-priceTotal{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 86.71%;
+/* identical to box height, or 19px */
+
+
+color: #7177E2;
+
+
+}
+
+.completePayment-div{
+    /* background: linear-gradient(90deg, #018080 0%, #07C8C8 99.95%);
+    border-radius: 7.16667px;
+    width: 483.75px;
+    height: 51.96px; */
+    margin-top: 107.21px;
+}
+
+.CompletePayment-button{
+    background: linear-gradient(90deg, #018080 0%, #07C8C8 99.95%);
+    border-radius: 7.16667px;
+    width: 483.75px;
+    height: 51.96px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 83.71%;
+/* or 13px */
+
+
+/* add */
+
+color: #FFFFFF;
+border-style: none;
+
+}
+
+
+.cardDetails-div{
+        
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11.6458px rgba(0, 0, 0, 0.18);
+    border-radius: 7.16667px;
+    margin-top:20.6px ;
+    border-style: none;
+    padding-top: 14px;
+    padding-bottom: 17px;
+}

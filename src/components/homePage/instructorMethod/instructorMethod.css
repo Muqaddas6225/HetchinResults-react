@@ -1,0 +1,162 @@
+.InstructorMethod-section{
+    margin-top: 70px;
+}
+
+
+.Instructor-row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.instructor-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.body-data .body-title{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5;
+    line-height: 54px;
+    /* or 306% */
+
+    display: flex;
+    align-items: center;
+
+    /* #0F0E13 */
+
+    color: #0F0E13;
+
+}
+
+.body-data .body-desc{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 28px;
+/* or 168% */
+
+display: flex;
+align-items: center;
+
+/* #3F3E42 */
+
+color: #3F3E42;
+}
+
+.instructor-img-div{
+    position: relative;
+    background-image:url('../../../assets/images/homeImgs/instructorMethodImgs/hatching-results-instructor.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 578px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.instructor-img-div .card{
+    position: absolute;
+    height: 155.98px;
+    width: 155.98px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(13.2716px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 21.2346px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 9px;
+}
+
+.instructor-img-div .instructor-card-1{
+    top: 12%;
+    left: 1%;
+}
+
+.instructor-img-div .instructor-card-2{
+    top:72%;
+    left: 60%;
+}
+
+
+.instructor-card-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.6955px;
+    line-height: 25px;
+    /* or 140% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #0F0E13;
+}
+
+@media screen and (max-width:992px){
+   .Instructor-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+   }
+   .instructor-img-div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;    
+    margin: auto;
+   }
+}
+
+@media screen and (max-width:620px){
+     .instructor-img-div{
+        width: 350px;
+        height: 380px;
+    }
+    .instructor-img-div .card{
+        height: 120px;
+        width: 120px;
+    }
+    .instructor-card-heading{
+        font-size: 1rem;
+    }
+    
+    .instructor-img-div .card .instructorImg{
+        height: 52px;
+        width: 50px;
+    }
+   
+}
+
+
+@media screen and (max-width:400px){
+    .instructor-img-div{
+        width: 280px;
+        height: 330px;
+    }
+    .instructor-img-div .card{
+        height: 110px;
+        width: 110px;
+    }
+    .instructor-card-heading{
+        font-size: 0.9rem;
+    }
+
+    .instructor-img-div .card .instructorImg{
+        height: 44px;
+        width: 41px;
+    }
+   
+}

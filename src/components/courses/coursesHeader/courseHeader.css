@@ -1,0 +1,293 @@
+
+        /* LearningSystem */
+        .LearningSystem{
+            position: relative;
+            padding-top: 230px;
+            z-index: 1;
+        }
+        .LearningSystem:before{
+            top: 0%;
+            position: absolute;
+            background-image: url('../../../assets/images/coursesImages/courseHeaderImgs/courseHeaderBackground.png');
+           /* background-image: url('../../../assets/images/coursesImages/courseHeaderImgs/subpages-header-bg.png'); */
+           background-repeat: no-repeat;
+           background-size: cover; 
+           background-position: bottom center;
+           height: 290px;
+            content: '';
+            width: 100%;
+            z-index: 1;
+           
+        }
+        .LearningSystem-row{
+            display: flex;
+            /* flex-direction: row; */
+            flex-wrap: wrap;
+            /* gap: 0px; */
+        }
+        .LearningSystem-row .LearningSystem-desc{
+            padding-top: 91px;
+            padding-right: 100px;
+           
+            
+        }
+
+        .LearningSystem-h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 58px;
+            /* or 121% */
+
+
+            /* #0F0E13 */
+
+            color: #0F0E13;
+
+        }
+        
+        .LearningSystem-row .LearningSystem-desc .LearningSystem-p{
+                        
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 23px;
+            /* or 140% */
+
+
+            color: #5C6272;
+
+            /* margin-bottom: 43px;
+            padding-right: 30px; */
+            
+        }
+        
+        /* .LearningSystem-row .LearningSystem-desc .LearningSystem-list .LearningSystem-listItem{
+        
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.375rem;
+            line-height: 22px;
+           
+        
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            list-style: initial;
+            color: #0F0E13;
+        }
+         */
+         .LearningSystem-row .Pic-LearningSystem{
+            position: relative;
+            background-image: url('../../../assets/images/coursesImages/courseHeaderImgs/courseheaderImg.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            /* height: 39.063125rem; */
+            width: 526px;
+            height: 625px;
+            z-index: 1;
+        
+            /* width: 32.875rem; */
+            /* width: 100%; */
+        }
+        
+        .LearningSystem-row .Pic-LearningSystem .card{
+            height: 56.34px;
+            width: 218px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+            
+            background: #FFFFFF;
+            box-shadow: 0px 0px 9.78068px 2.09586px rgba(0, 0, 0, 0.2);
+            border-radius: 8.98106px;
+
+            /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.04) 100%); */
+            /* backdrop-filter: blur(13.4375px); */
+        /* Note: backdrop-filter has minimal browser support */
+            gap: 5px;
+            /* border-radius: 21.5px; */
+        }
+        
+        .LearningSystem-row .Pic-LearningSystem .LearningSystem-card-1{
+            position: absolute;
+            top: 15%;
+            left: 2%;
+            /* transform: translate(-75px, 100px); */
+        }
+        
+         .LearningSystem-row .Pic-LearningSystem .LearningSystem-card-2{
+            position: absolute;
+            top: 29%;
+            left: 60%
+            /* transform: translate(23px, 500px); */
+        }
+/*         
+         .LearningSystem-row .Pic-LearningSystem .LearningSystem-card-3{
+            height: 11.645rem;
+            position: absolute;
+            top: 60%;
+            left: 75%;
+        }
+         */
+        .LearningSystem-row .Pic-LearningSystem .card .LearningSystemImg{
+            height: 3.583125rem;
+            width:  3.583125rem;
+        }
+        
+        .Pic-LearningSystem .card .LearningSystem-card-body .LearningSystem-card-heading{
+                        
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 0.728181rem;
+            line-height: 135%;
+            /* or 16px */
+
+
+            color: #3E3E3E;
+            /* display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+         */
+        }
+        
+        @media screen and (max-width: 1129px){
+             .LearningSystem-row{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+               
+            }
+        
+             /* .LearningSystem-row .Pic-LearningSystem{
+        
+            }
+        
+             .LearningSystem-row .Pic-LearningSystem .card{
+        
+            } */
+            
+        }
+        
+        @media screen and (max-width: 670px){
+            .LearningSystem-h1{
+                font-size: 2.8rem;
+                line-height: 55px;
+            }
+        
+            .LearningSystem-row .Pic-LearningSystem{
+                height: 450px;
+                width: 450px;
+            }
+        
+            .LearningSystem-row .Pic-LearningSystem .card{
+                height: 7.5rem;
+                width: 7.5rem;
+            } 
+        
+            .LearningSystem-row .Pic-LearningSystem .card .LearningSystemImg{
+                height: 2rem;
+                width:  2rem;
+            }
+        
+            .Pic-LearningSystem .card .LearningSystem-card-body .LearningSystem-card-heading{
+                font-size: 0.8rem;
+            }
+/*         
+            .LearningSystem-row .Pic-LearningSystem .LearningSystem-card-3{
+                height: 8.5rem ;
+                line-height: 20px;
+                left:60%
+            } */
+        
+        
+        
+        
+        
+        
+        }
+        
+        @media screen and (max-width: 500px){
+            .LearningSystem-h1{
+                font-size: 2.5rem;
+                line-height: 50px;
+            }
+
+            .LearningSystem-row .Pic-LearningSystem{
+                height: 350px;
+                width: 350px;
+            }
+        
+            .LearningSystem-row .Pic-LearningSystem .card{
+                height: 5.5rem;
+                width: 5.5rem;
+            } 
+        
+            .LearningSystem-row .Pic-LearningSystem .card .LearningSystemImg{
+                height: 1.5rem;
+                width:  1.5rem;
+            }
+        
+            .Pic-LearningSystem .card .LearningSystem-card-body .LearningSystem-card-heading{
+                font-size: 0.7rem;
+            }
+        
+            /* .LearningSystem-row .Pic-LearningSystem .LearningSystem-card-3{
+                height: 7.5rem ;
+                line-height: 15px;
+                left: 60%;
+            } */
+        }
+        
+        @media screen and (max-width: 400px){
+            .LearningSystem-h1{
+                font-size: 2rem;
+                line-height: 45px;
+            }
+        }
+        @media screen and (max-width: 320px){
+           
+            .LearningSystem-row .Pic-LearningSystem{
+                height: 310px;
+                width: 310px;
+            }
+        
+            .LearningSystem-row .Pic-LearningSystem .card{
+                height: 4.6rem;
+                width: 4.5rem;
+            } 
+        
+            .LearningSystem-row .Pic-LearningSystem .card .LearningSystemImg{
+                height: 1.5rem;
+                width:  1.5rem;
+            }
+        
+            .Pic-LearningSystem .card .LearningSystem-card-body .LearningSystem-card-heading{
+                font-size: 0.6rem;
+                line-height: 12px;
+            }
+/*         
+            .LearningSystem-row .Pic-LearningSystem .LearningSystem-card-3{
+                height: 7rem ;
+                line-height: 14px;
+                left: 65%;
+            } */
+        
+            .LearningSystem-row .LearningSystem-desc{
+                padding-top: 100px;
+                padding-left: 0;
+               
+                
+            }
+        }
+        
+        
+        

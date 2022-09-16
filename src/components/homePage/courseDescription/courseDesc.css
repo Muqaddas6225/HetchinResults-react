@@ -1,0 +1,142 @@
+.courseDescSection{
+    min-height: 393px;
+}
+
+.coursedesc-row{
+    padding-top:27px
+}
+.coursedesc-img{   
+    margin-right: 30px;
+    background-size: cover;
+    /* height: 100%; */
+    /* background-position: right center; */
+}
+
+.coursedesc-img img{
+   
+    /* padding-right: 22px; */
+    height: 100%;
+    width: 100%;
+    
+
+}
+/* 
+.coursedesc-img::before{
+    position: absolute;
+    background-image: url('../../../assets/images/homeImgs/courseDescImgs/Rectangle\ 4297.png');
+    content: '';
+    z-index: -1;
+    height: 364px;
+    
+    width: 498px;
+  
+    transform: translate(-22px, -26px);
+
+} */
+
+.body .title{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 64px;
+/* or 245% */
+
+display: flex;
+align-items: center;
+
+/* #0F0E13 */
+
+color: #0F0E13;
+
+}
+
+.body .para{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+/* or 182% */
+
+display: flex;
+align-items: center;
+
+/* #3F3E42 */
+
+color: #3F3E42;
+}
+
+.list{
+    /* gap: 30px; */
+}
+/* 
+.body{
+    height: 100%
+} */
+
+.body .list-item{
+list-style:initial !important;
+   
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+/* or 155% */
+/* display: flex;
+align-items: flex-end; */
+
+/* #3F3E42 */
+padding-top: 15px;
+color: #3F3E42;
+}
+.body .note{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+/* or 368% */
+
+display: flex;
+align-items: center;
+
+/* #0F0E13 */
+
+color: #0F0E13;
+ }
+
+ .body .note-desc{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 182% */
+
+display: flex;
+align-items: center;
+
+/* #3F3E42 */
+
+color: #3F3E42;
+}
+
+@media screen and (max-width: 992px) {
+    .coursedesc-row{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* text-align: center; */
+    }
+    /* .coursedesc-img::before{
+        display: none;
+    } */
+}

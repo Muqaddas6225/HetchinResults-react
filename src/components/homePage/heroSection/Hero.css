@@ -1,0 +1,233 @@
+.heroSection{
+    background-image: url('../../../assets/images/heroImages/heroBackground.png');
+    min-height: 55rem; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+}
+
+
+
+.helping-knak{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.helping-knak .description{
+    margin-top:133.5px;
+}
+.helping-knak .description .knak-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 58px;
+    /* or 132% */
+    
+    letter-spacing: 1.5px;
+    
+    color: #FFFFFF;
+}
+
+.helping-knak .knakImg img{
+    margin-top: 20px;
+   height:556.37px ;
+   max-width: 560px;
+   width: 100%;
+ }
+/* 
+.helping-knak .knakImg .card{
+    position: absolute;
+    height: 8.4375rem;
+    width : 8.4375rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(26.25px);
+
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 9px;
+}
+
+.helping-knak .knakImg .knak-card-1{
+  
+    top: 19%;
+    left: -6%;
+}
+
+.helping-knak .knakImg .knak-card-2{
+  
+    top: 70%;
+    left: 55%;
+}
+
+.helping-knak .knakImg .card .knak-card-body .card-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #0F0E13;
+}  */
+
+/* 
+.helping-knak .knakImg .knak-img{
+    width: 27.375rem;
+    height: 35.625rem;
+    border-radius: 219px;
+    margin-bottom: 100px;
+} */
+
+/* .helping-knak .knakImg::before{
+    position:absolute;
+    background-image: url(/assests/images/obj1.png);
+    content:'';
+    width: 11.25rem;
+    height: 11.25rem;
+    transform: translate(-200px, -140px);
+    z-index: 1;
+}
+
+
+.helping-knak .knakImg::after{
+    position:absolute;
+    background-image: url(/assests/images/obj2.png);
+    content:'';
+    width: 180px;
+    height: 180px;
+    transform: translate(150px, 200px);
+    z-index: 2;
+} */
+
+@media screen and (max-width : 992px) {
+    .heroSection{
+        min-height: 68rem;
+    }
+    /* .header{
+        height: 85rem; 
+    } */
+    .helping-knak{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .helping-knak .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top:60px;
+        margin-bottom: 30px;
+    }
+
+    .helping-knak .knakImg img{
+        height: 30rem;
+        width: 23rem;
+       
+    }
+/*     
+    .helping-knak .knakImg .card{
+        height: 7.5rem ;
+        width: 7.5rem;
+    }
+    .helping-knak .knakImg .knak-card-1{
+        top: 15%;
+        left: -15%;
+    }
+
+    .helping-knak .knakImg .knak-card-2{
+        top: 70%;
+        left: 70%;
+    }
+ */
+}
+
+@media screen and (max-width : 768px){
+    
+    .helping-knak .knakImg img{
+        height: 25rem;
+        width: 20rem;
+       
+    }
+}
+
+@media screen and (max-width : 500px) {
+
+    .helping-knak .description .knak-heading{
+        font-size: 2.3rem;
+        line-height: 40px;
+        letter-spacing: 0.9px;
+    }
+    .helping-knak{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .helping-knak .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+    }
+
+    .helping-knak .knakImg img{
+        height: 23rem;
+        width: 16rem;
+       
+    }
+
+    /* .helping-knak .knakImg .card{
+        height: 6rem ;
+        width: 6rem;
+    }
+   
+    .helping-knak .knakImg .card .knak-card-body .card-heading{
+        font-size: 0.7rem;
+        line-height: 15px;
+    }
+
+    .helping-knak .knakImg .card .kCardImg{
+        height: 1.8rem;
+        width:  1.8rem;
+    } */
+}
+
+
+@media screen and (max-width : 450px) {
+    .heroSection{
+        min-height: 78rem;
+    }
+    .helping-knak .description .knak-heading{
+        font-size: 2rem;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+    }
+    .helping-knak .knakImg img{
+        height: 20rem;
+        width: 16rem;
+       
+    }
+   
+/*    
+    .helping-knak .knakImg .knak-card-2{
+        top: 65%;
+        left: 65%;
+    } 
+    */
+}

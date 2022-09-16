@@ -1,0 +1,140 @@
+.PopularCourses-headingdiv{
+    margin-bottom: 4.311rem;
+}
+.PopularCourses-heading{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 4rem;
+    /* or 124% */
+
+
+    color: #0F0E13;
+}
+
+
+/* 
+.Popularcourses-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 26.87px;
+} */
+
+.popularCourses-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 26.87px;
+}
+
+.popularCourses-row .card{
+    border-style: none;
+}
+.popularCourses-card{
+    background: #FFFFFF;
+    /* height: 340.42px;
+    width: 301.9px; */
+    border-style: none;
+    /* object-fit: cover; */
+   
+
+}
+
+.popularCourses-card .popularCourses-img{
+    height: 100%;
+    width: 100%;
+}
+
+.popularCourses-card .popularCourses-heading{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+
+
+    color: #0F0E13;
+
+}
+
+
+
+
+.popularCourses-card  .popularCourses-text{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 105% */
+
+
+    color: #0F0E13;
+}
+
+
+
+.popularCourses-card .popularCourses-Authorname{
+
+    color: #3FEF96;
+   text-decoration: none;
+}
+
+
+
+.Courses-duration{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 105% */
+
+
+    color: #0F0E13;
+}
+
+.vertical-line{
+    height: 13px;
+    width: 1px;
+    border: 1px solid black;
+    
+}
+
+@media screen and (max-width:1256px) {
+    .popularCourses-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .PopularCourses-headingdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:568px) {
+    .PopularCourses-heading{
+        font-size: 2.3rem;
+     line-height: 2rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .PopularCourses-heading{
+        font-size: 2rem;
+      line-height: 2rem;
+    }
+}

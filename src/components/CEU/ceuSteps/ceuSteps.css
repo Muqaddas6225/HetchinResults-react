@@ -1,0 +1,268 @@
+.steps-section{
+    margin-top: 123px;
+}
+.stepsRow{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+}
+
+.steps-heading{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 70px;
+    /* or 233% */
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+    /* #0F0E13 */
+
+    color: #0F0E13;
+
+    margin-bottom: 56px;
+}
+
+.steps-ul li{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    /* 
+    display: flex;
+    align-items: flex-end; */
+
+    /* #3F3E42 */
+
+    color: #3F3E42;
+
+}
+
+
+
+.steps-list{
+    display: grid;
+     /* grid-template-rows: 1fr ; */
+    grid-template-columns: 78px 1fr;
+    column-gap: 30px;
+    /* row-gap: 24px; */
+    margin-bottom: 24px;
+}
+
+.list-tag{
+    position: relative;
+    background: #FBFBFB;
+    box-shadow: 0px 11px 51px rgba(0, 0, 0, 0.14);
+    /* box-sizing: border-box; */
+    width: 4.875rem;
+    height: 4.875rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* stext-align: center; */
+    
+}
+
+.list-tag::before{
+    content: "";
+    position: absolute;
+    height: 5.1rem;
+    width: 5.1rem;
+    left: -0.1rem;
+    bottom: -0.1rem;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #018181 7.61%, #07C7C7 99.07%);
+    z-index: -1;
+}
+
+
+
+.tag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 91% */
+    color: #3FEE97;
+}
+
+
+
+.stepsImg-div{
+    background-image: url('../../../assets/images/CEUimgs/ceu-steps/next-steps-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 483px;
+    max-width: 515px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1180px){
+    /* .stepsImg-div{
+      
+    } */
+}
+
+@media screen and (max-width:992px) {
+    .stepsRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
+.registration{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.note-div{
+        
+    background: #FFFFFF;
+    box-shadow: 0px 0px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+    /* max-width: 730px; */
+    padding-top: 24px;
+    padding-bottom: 34px;
+    /* white-space: wrap; */
+}
+
+.important-note{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+     /* align-items: center;
+    text-align: center; */
+    /* justify-content: center; */
+
+}
+.important-note-p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.important-note p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+/* 
+display: flex;
+align-items: center;
+text-align: center; */
+
+/* #0F0E13 */
+
+color: #0F0E13;
+margin-bottom: 0;
+}
+
+.note-desc {
+    margin-top: 20px;
+}
+.note-desc p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+color: #3F3E42;
+}
+
+.register-div{
+       
+/* background: #FFFFFF; */
+/* box-shadow: 0px 0px 49px rgba(146, 165, 184, 0.14); */
+border-radius: 14px;
+/* max-width: 740px; */
+padding-top: 24px;
+padding-bottom: 34px;
+}
+
+.reg-content{
+
+}
+
+.reg-content h3{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* #0F0E13 */
+    
+    color: #0F0E13;
+}
+.reg-content p{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    color: #656464;
+}
+.reg-content button{
+    
+background: #007979;
+border-radius: 60px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+justify-content: center;
+border-style:none ;
+width: 163px;
+height: 53px;
+
+color: #FFFFFF;
+
+}
+
+
+@media screen and (max-width:400px) {
+    .steps-list{
+        display: flex;
+        flex-direction: column;
+    }
+}
